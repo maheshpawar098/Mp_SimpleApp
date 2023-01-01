@@ -21,6 +21,13 @@ const PARENT_ROUTE = {
   APP: Tabs,
 };
 
+
+/**
+ * This is Navigation Container Wrapper where tabs and login screen handled as per authentication 
+ * 
+ * @author Mahesh Pawar
+ * @returns App Navigation 
+ */
 const AppContainer = () => {
   const isAuth = useSelector(state => state.user.isAuth);
   const [isLoading, setIsLoading] = useState(true);

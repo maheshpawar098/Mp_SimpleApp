@@ -17,9 +17,6 @@ import {useDispatch} from 'react-redux';
 import { onLogin } from '../../utils/helper';
 
 
-// ashwini+12@arkenea.com
-// Qwerty@123
-
 const Login = () => {
   const {width} = useWindowDimensions();
   const [email, setEmail] = useState('');
